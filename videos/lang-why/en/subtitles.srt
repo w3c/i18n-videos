@@ -1,0 +1,240 @@
+1
+00:00:00,466 --> 00:00:02,550
+Hi, I'm Fuqiao Xue
+
+2
+00:00:02,550 --> 00:00:05,200
+and I lead the Internationalization Activity
+
+3
+00:00:05,200 --> 00:00:06,616
+at the W3C
+
+4
+00:00:06,666 --> 00:00:09,733
+We work to make sure the web is usable for everyone
+
+5
+00:00:09,833 --> 00:00:12,816
+no matter their language, script, or culture.
+
+6
+00:00:13,416 --> 00:00:16,733
+What if I told you that one simple HTML attribute
+
+7
+00:00:16,950 --> 00:00:19,650
+one that takes about ten seconds to add
+
+8
+00:00:19,716 --> 00:00:22,850
+could dramatically improve your site's accessibility
+
+9
+00:00:23,200 --> 00:00:26,650
+boost its SEO, and even make it look better?
+
+10
+00:00:27,233 --> 00:00:29,116
+It sounds too good to be true
+
+11
+00:00:29,116 --> 00:00:33,016
+but it's not. I'm talking about the lang attribute.
+
+12
+00:00:33,916 --> 00:00:35,733
+You’ve probably seen it before.
+
+13
+00:00:36,083 --> 00:00:38,566
+This little piece of code tells the browser
+
+14
+00:00:38,600 --> 00:00:41,766
+and any other software that processes the page
+
+15
+00:00:41,833 --> 00:00:44,966
+what human language the content is written in
+
+16
+00:00:45,516 --> 00:00:48,200
+While we usually put it on the `<html>` element
+
+17
+00:00:48,200 --> 00:00:49,533
+for the whole page
+
+18
+00:00:49,716 --> 00:00:52,716
+you can also use it on specific parts of the page
+
+19
+00:00:52,716 --> 00:00:55,700
+if you have content in multiple languages
+
+20
+00:00:56,466 --> 00:01:00,733
+For XML-based formats, you might see xml:lang
+
+21
+00:01:01,000 --> 00:01:02,850
+which does the same job.
+
+22
+00:01:03,516 --> 00:01:07,166
+So, why is this tiny attribute so important?
+
+23
+00:01:07,600 --> 00:01:09,100
+Let's break it down.
+
+24
+00:01:09,316 --> 00:01:12,166
+Imagine a user who relies on a screen reader.
+
+25
+00:01:12,600 --> 00:01:15,133
+This software converts text to speech.
+
+26
+00:01:15,433 --> 00:01:17,416
+If you don't declare the language
+
+27
+00:01:17,466 --> 00:01:19,450
+the screen reader has to guess.
+
+28
+00:01:19,800 --> 00:01:21,533
+By declaring the language
+
+29
+00:01:21,716 --> 00:01:23,950
+you ensure that assistive technologies
+
+30
+00:01:23,950 --> 00:01:26,166
+can use the correct pronunciation
+
+31
+00:01:26,316 --> 00:01:29,816
+providing an understandable experience for all users.
+
+32
+00:01:30,916 --> 00:01:33,400
+The lang attribute also has a direct impact
+
+33
+00:01:33,400 --> 00:01:36,933
+on how the browser renders your page. For example,
+
+34
+00:01:37,233 --> 00:01:39,066
+once you add the lang attribute
+
+35
+00:01:39,066 --> 00:01:42,000
+the browser knows the language's hyphenation rules
+
+36
+00:01:42,000 --> 00:01:43,933
+and can break words correctly.
+
+37
+00:01:44,633 --> 00:01:47,050
+It can also influence font selection.
+
+38
+00:01:47,750 --> 00:01:50,350
+Some characters are used in multiple languages
+
+39
+00:01:50,350 --> 00:01:53,100
+but with subtle differences in glyph design.
+
+40
+00:01:53,600 --> 00:01:55,266
+By declaring the language
+
+41
+00:01:55,266 --> 00:01:57,100
+you give the browser a hint
+
+42
+00:01:57,433 --> 00:01:59,866
+to choose a font that is typographically
+
+43
+00:01:59,866 --> 00:02:01,766
+appropriate for that language
+
+44
+00:02:02,116 --> 00:02:03,733
+improving readability.
+
+45
+00:02:04,716 --> 00:02:07,016
+And the benefits don't stop there.
+
+46
+00:02:07,516 --> 00:02:10,350
+The lang attribute also helps browsers with styling
+
+47
+00:02:10,350 --> 00:02:12,016
+using language attributes
+
+48
+00:02:12,550 --> 00:02:16,233
+spell checking in forms, and enables machine translation
+
+49
+00:02:16,233 --> 00:02:18,250
+services to work correctly.
+
+50
+00:02:18,966 --> 00:02:22,416
+It's a signal that benefits the entire web ecosystem.
+
+51
+00:02:22,833 --> 00:02:23,200
+So let's recap. By adding one simple attribute, lang,
+
+52
+00:02:27,666 --> 00:02:29,433
+you create a better experience
+
+53
+00:02:29,433 --> 00:02:31,733
+for users of assistive technology
+
+54
+00:02:32,050 --> 00:02:35,166
+you improve your site's visibility on search engines
+
+55
+00:02:35,516 --> 00:02:37,716
+and you help the browser render your content
+
+56
+00:02:37,716 --> 00:02:39,816
+more beautifully and correctly.
+
+57
+00:02:40,666 --> 00:02:42,550
+It's one of the easiest and most
+
+58
+00:02:42,550 --> 00:02:44,816
+important things you can do for your website
+
+59
+00:02:45,516 --> 00:02:47,700
+Go check your projects right now.
+
+60
+00:02:48,033 --> 00:02:51,533
+If that lang attribute is missing, add it.
+
