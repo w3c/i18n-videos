@@ -7,7 +7,7 @@ Have you ever shrunk a browser window
 and watched the text reflow?
 
 3
-00:00:04,316 --> 00:00:04,733
+00:00:04,316 --> 00:00:07,139
 It seems so simple, so automatic.
 
 4
@@ -44,7 +44,7 @@ Hello, I’m Fuqiao Xue,
 
 12
 00:00:32,033 --> 00:00:34,433
-and I lead the Worldwide Web Consortium's
+and I lead the World Wide Web Consortium's
 
 13
 00:00:34,433 --> 00:00:36,466
@@ -232,7 +232,7 @@ which is common in East Asian typography.
 
 59
 00:02:52,416 --> 00:02:56,283
-And finally, we have systems that read by the character.
+And finally, we have systems that wrap by the character.
 
 60
 00:02:56,933 --> 00:02:59,366
@@ -343,7 +343,7 @@ to indicate a continuation. And in Javanese,
 if a line breaks before a specific vowel sign,
 
 87
-00:04:05,300 --> 00:04:05,433
+00:04:05,300 --> 00:04:05,800
 a 'ghost' of that sign is placed at the end of the previous line
 
 88
@@ -389,4 +389,3 @@ you can read our full article on the W3C website,
 98
 00:04:36,466 --> 00:04:39,883
 linked in the description below. Thanks for watching.
-
