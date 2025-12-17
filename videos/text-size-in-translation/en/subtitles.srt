@@ -1,0 +1,451 @@
+1
+00:00:00,333 --> 00:00:02,566
+Hello welcome to W3C
+
+2
+00:00:02,900 --> 00:00:04,766
+Have you ever switch your web content
+
+3
+00:00:04,766 --> 00:00:06,533
+from one language to another
+
+4
+00:00:06,800 --> 00:00:09,666
+and just find out the text got broken
+
+5
+00:00:10,733 --> 00:00:13,666
+today I'm going to present W3C's article
+
+6
+00:00:13,666 --> 00:00:15,333
+Text size in translation
+
+7
+00:00:15,400 --> 00:00:18,200
+and gonna show you how text size
+
+8
+00:00:18,333 --> 00:00:20,100
+gonna affect the readability
+
+9
+00:00:20,100 --> 00:00:23,400
+and accessibility of your web content across languages
+
+10
+00:00:23,400 --> 00:00:25,166
+so importantly
+
+11
+00:00:26,800 --> 00:00:30,100
+Let's take China's biggest e-commerce website
+
+12
+00:00:30,133 --> 00:00:31,733
+Taobao as an example
+
+13
+00:00:32,366 --> 00:00:34,366
+if you switch into English
+
+14
+00:00:34,733 --> 00:00:36,333
+you'll find that text wrap
+
+15
+00:00:36,333 --> 00:00:38,900
+splits a single word into two lines
+
+16
+00:00:38,933 --> 00:00:40,966
+words get cut off mid sentence
+
+17
+00:00:42,000 --> 00:00:44,333
+and if you click into this
+
+18
+00:00:45,166 --> 00:00:48,500
+there is also text run out of space
+
+19
+00:00:49,866 --> 00:00:51,733
+it's a small visual detail
+
+20
+00:00:51,933 --> 00:00:55,933
+but it instantly makes your content harder to read
+
+21
+00:00:56,266 --> 00:00:59,866
+and less trustworthy for international users
+
+22
+00:01:00,333 --> 00:01:03,933
+and it all comes down to internationalization issues
+
+23
+00:01:05,000 --> 00:01:06,500
+let's take a closer look
+
+24
+00:01:06,933 --> 00:01:10,266
+this is an example of a 9 word English sentence
+
+25
+00:01:10,266 --> 00:01:11,166
+very simple
+
+26
+00:01:11,466 --> 00:01:15,600
+then we have German Chinese Japanese translations
+
+27
+00:01:16,266 --> 00:01:18,266
+ideas are the same
+
+28
+00:01:18,566 --> 00:01:21,333
+but the length of the line is longer or shorter
+
+29
+00:01:21,333 --> 00:01:24,666
+very differently among both European and
+
+30
+00:01:24,666 --> 00:01:26,000
+Asian languages
+
+31
+00:01:27,033 --> 00:01:30,566
+this is the everyday reality of multilingual design
+
+32
+00:01:31,166 --> 00:01:33,500
+what fits neatly in one language
+
+33
+00:01:33,566 --> 00:01:36,866
+may just overlap or collapse in another language
+
+34
+00:01:37,833 --> 00:01:41,766
+Flickr has a great table of the ratio of different
+
+35
+00:01:41,866 --> 00:01:43,900
+expansion rates across languages
+
+36
+00:01:44,300 --> 00:01:46,533
+what you're seeing is a comparison
+
+37
+00:01:46,533 --> 00:01:48,133
+of how the word 'Views'
+
+38
+00:01:48,133 --> 00:01:52,033
+changes in length when translated into other languages
+
+39
+00:01:52,466 --> 00:01:54,100
+English just five letters
+
+40
+00:01:54,200 --> 00:01:55,966
+But translations differ
+
+41
+00:01:56,100 --> 00:01:57,733
+some stay close to that length
+
+42
+00:01:57,733 --> 00:01:59,733
+some double or even triple it
+
+43
+00:02:00,166 --> 00:02:04,033
+300% expansion rate from English to Italian
+
+44
+00:02:04,200 --> 00:02:07,333
+is not surprising for small strings such as this
+
+45
+00:02:08,133 --> 00:02:09,966
+and in Koreana and Chinese
+
+46
+00:02:10,033 --> 00:02:13,433
+the lens is similar but it needs more vertical space
+
+47
+00:02:14,200 --> 00:02:17,100
+according to IBM's Global Design Guidelines
+
+48
+00:02:17,466 --> 00:02:20,066
+text usually expands when translated
+
+49
+00:02:20,300 --> 00:02:21,966
+but here's something interesting
+
+50
+00:02:21,966 --> 00:02:23,333
+you can see in the table
+
+51
+00:02:23,800 --> 00:02:25,933
+the shorter the original text
+
+52
+00:02:25,933 --> 00:02:28,800
+the larger is the expansion is likely to be
+
+53
+00:02:29,733 --> 00:02:32,500
+so if we don't plan for that growth
+
+54
+00:02:32,533 --> 00:02:35,066
+we end up with broken interfaces
+
+55
+00:02:35,066 --> 00:02:37,900
+balance that overflow labels that get cut off
+
+56
+00:02:37,933 --> 00:02:41,100
+and layouts that simply don't work anymore
+
+57
+00:02:42,300 --> 00:02:45,100
+we also have other complicating factors
+
+58
+00:02:45,166 --> 00:02:47,700
+that affect your tax expansion
+
+59
+00:02:47,700 --> 00:02:49,533
+on your web content page
+
+60
+00:02:49,733 --> 00:02:50,600
+firstly
+
+61
+00:02:51,266 --> 00:02:53,700
+a number of languages such as Finnish
+
+62
+00:02:53,700 --> 00:02:54,966
+German and Dutch
+
+63
+00:02:54,966 --> 00:02:55,766
+create single
+
+64
+00:02:55,766 --> 00:02:57,200
+large words to replace
+
+65
+00:02:57,200 --> 00:02:59,100
+what is a sequence of smaller words
+
+66
+00:02:59,100 --> 00:03:00,400
+in other languages
+
+67
+00:03:00,800 --> 00:03:04,666
+for example the English 'input processing features'
+
+68
+00:03:04,933 --> 00:03:07,300
+may become very very long in German
+
+69
+00:03:07,333 --> 00:03:08,533
+so in English
+
+70
+00:03:08,533 --> 00:03:10,966
+that phrase can easily wrap into two lines
+
+71
+00:03:10,966 --> 00:03:12,466
+when space is tight
+
+72
+00:03:12,600 --> 00:03:15,933
+but the German version it might not wrap at all
+
+73
+00:03:15,966 --> 00:03:17,666
+it just keeps going
+
+74
+00:03:17,666 --> 00:03:19,866
+and that can easily break your layout
+
+75
+00:03:20,866 --> 00:03:23,600
+then there are languages like Chinese
+
+76
+00:03:23,600 --> 00:03:25,066
+Japanese and Korean
+
+77
+00:03:25,366 --> 00:03:28,866
+their characters are more complex than Latin letters
+
+78
+00:03:29,433 --> 00:03:32,400
+each word takes up more horizontal space
+
+79
+00:03:32,800 --> 00:03:35,766
+for instance the English word desktop
+
+80
+00:03:36,033 --> 00:03:39,666
+the Japanese one has only seven characters
+
+81
+00:03:39,833 --> 00:03:42,500
+but it looks much wider on screen
+
+82
+00:03:42,900 --> 00:03:45,066
+and vertical space matters too
+
+83
+00:03:45,433 --> 00:03:49,500
+some scripts such as Thai Arabic and the vernacular
+
+84
+00:03:49,766 --> 00:03:50,900
+have taller characters
+
+85
+00:03:50,900 --> 00:03:53,400
+and require more space between lines
+
+86
+00:03:54,233 --> 00:03:55,300
+in this example
+
+87
+00:03:55,300 --> 00:03:56,300
+you can see that
+
+88
+00:03:56,300 --> 00:03:58,266
+the same text in English and Thai
+
+89
+00:03:58,266 --> 00:03:59,866
+both take up two lines
+
+90
+00:04:00,066 --> 00:04:02,833
+but the Thai version is noticeably taller
+
+91
+00:04:03,500 --> 00:04:07,400
+and this just doesn't not only happen with Thai
+
+92
+00:04:07,666 --> 00:04:09,900
+many scripts including Arabic Chinese
+
+93
+00:04:09,900 --> 00:04:11,233
+Japanese and Korean
+
+94
+00:04:11,366 --> 00:04:14,000
+need also extra height for clarity
+
+95
+00:04:14,966 --> 00:04:17,966
+finally it's about abbreviations
+
+96
+00:04:18,100 --> 00:04:19,566
+when designing interfaces
+
+97
+00:04:19,566 --> 00:04:22,200
+we sometimes shorten words to make them fit
+
+98
+00:04:22,600 --> 00:04:25,233
+but this can cause problems in translation
+
+99
+00:04:25,666 --> 00:04:28,900
+some languages just don't use them at all
+
+100
+00:04:29,300 --> 00:04:29,700
+or
+
+101
+00:04:29,700 --> 00:04:32,700
+they cannot shorten words without changing the meaning
+
+102
+00:04:33,900 --> 00:04:35,500
+Arabic for instance
+
+103
+00:04:35,600 --> 00:04:38,233
+builds words using compact root patterns with
+
+104
+00:04:38,233 --> 00:04:40,266
+prefixes and suffixes
+
+105
+00:04:40,566 --> 00:04:43,700
+so abbreviating can easily distort their meaning
+
+106
+00:04:45,200 --> 00:04:48,566
+in general the more flexible your layout is
+
+107
+00:04:48,600 --> 00:04:50,400
+and the more consideration you have
+
+108
+00:04:50,400 --> 00:04:52,066
+given to other languages
+
+109
+00:04:52,366 --> 00:04:55,033
+the better your design will handle the translation
+
+110
+00:04:56,033 --> 00:05:00,133
+W3C has other articles which go deeper into this topic
+
+111
+00:05:00,233 --> 00:05:04,433
+including more detailed guidance for web and UI design
+
+112
+00:05:05,100 --> 00:05:07,300
+here are the links of this content
+
+113
+00:05:07,566 --> 00:05:10,200
+and you can also find them below this video
