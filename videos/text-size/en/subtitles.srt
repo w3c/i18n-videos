@@ -180,7 +180,7 @@ and in Koreana and Chinese
 
 46
 00:02:10,033 --> 00:02:13,433
-the lens is similar but it needs more vertical space
+the length is similar but it needs more vertical space
 
 47
 00:02:14,200 --> 00:02:17,100
@@ -228,7 +228,7 @@ we also have other complicating factors
 
 58
 00:02:45,166 --> 00:02:47,700
-that affect your tax expansion
+that affect your text expansion
 
 59
 00:02:47,700 --> 00:02:49,533
@@ -328,7 +328,7 @@ and vertical space matters too
 
 83
 00:03:45,433 --> 00:03:49,500
-some scripts such as Thai Arabic and the vernacular
+some scripts such as Thai, Arabic and the vernacular
 
 84
 00:03:49,766 --> 00:03:50,900
@@ -364,7 +364,7 @@ and this just doesn't not only happen with Thai
 
 92
 00:04:07,666 --> 00:04:09,900
-many scripts including Arabic Chinese
+many scripts including Arabic, Chinese
 
 93
 00:04:09,900 --> 00:04:11,233
