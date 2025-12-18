@@ -328,7 +328,7 @@ and vertical space matters too
 
 83
 00:03:45,433 --> 00:03:49,500
-some scripts such as Thai, Arabic and the vernacular
+some scripts such as Thai, Arabic, and Devanagari
 
 84
 00:03:49,766 --> 00:03:50,900
