@@ -44,8 +44,6 @@ Metadata for one published media asset:
 id: en-original
 kind: original
 audioLanguage: en
-sourceUrl: https://www.youtube.com/watch?v=-m9KHI1Fg0w
-basedOn:
 ```
 
 For a re-recorded Chinese version:
@@ -54,7 +52,6 @@ For a re-recorded Chinese version:
 id: zh-Hans-rerecord
 kind: rerecord
 audioLanguage: zh-Hans
-sourceUrl: https://www.youtube.com/watch?v=...
 basedOn: en-original
 ```
 
