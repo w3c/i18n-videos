@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Split-screen thumbnail comparing cafÃ© and café</title>
+  <desc id="desc">A clean high-contrast split-screen design with cafÃ© on the left and café on the right.</desc>
+
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="720" fill="#111111"/>
+  <rect x="640" width="640" height="720" fill="#F4F1EA"/>
+  <rect x="636" width="8" height="720" fill="#FF3B30"/>
+
+  <circle cx="640" cy="360" r="210" fill="#FF3B30" opacity="0.08"/>
+
+  <text
+    x="320"
+    y="360"
+    fill="#F7F7F2"
+    font-family="Futura, Avenir Next, Helvetica Neue, Arial, sans-serif"
+    font-size="136"
+    font-weight="700"
+    letter-spacing="-3"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    filter="url(#softShadow)"
+  >cafÃ©</text>
+
+  <text
+    x="960"
+    y="360"
+    fill="#121212"
+    font-family="Futura, Avenir Next, Helvetica Neue, Arial, sans-serif"
+    font-size="152"
+    font-weight="700"
+    letter-spacing="-3"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >café</text>
+</svg>
